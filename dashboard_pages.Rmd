@@ -1,0 +1,68 @@
+---
+title: "My Storyboard at DACSS - pages"
+output: 
+  flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+<!-- links -->
+```{r}
+map1link=
+viz1=url("https://github.com/DACSS690D-SpatialAnalysis/Homeworks/raw/refs/heads/main/map1.rds")
+
+map2link=
+viz2=url("https://github.com/DACSS690D-SpatialAnalysis/Homeworks/raw/refs/heads/main/map2.rds")
+```
+
+Sidebar {.sidebar}
+=====================================
+
+
+I can give some textual explanation here!
+
+Chapter 1
+===================================== 
+
+
+
+### GIVE ME A TITLE 1
+
+```{r}
+readRDS(viz1)
+```
+
+
+Chapter 2
+===================================== 
+
+
+
+### GIVE ME A TITLE 2
+
+```{r}
+readRDS(viz2)
+```
+
+Chapter 3
+===================================== 
+
+
+### GIVE ME A TITLE 3
+
+```{r}
+readRDS(viz1)
+```
+
+Chapter 4
+===================================== 
+
+
+### GIVE ME A TITLE 4
+
+```{r}
+readRDS(viz2)
+```
+
