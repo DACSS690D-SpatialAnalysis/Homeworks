@@ -12,8 +12,8 @@ Paste links from GitHub here:
 ```{r}
 # paste inside the quotations
 
-gpklink=''
-jsonlink=''
+gpklink='https://github.com/DACSS690D-SpatialAnalysis/Homeworks/raw/refs/heads/main/MapFromPython1.gpkg'
+jsonlink='https://github.com/DACSS690D-SpatialAnalysis/Homeworks/raw/refs/heads/main/MapFromPython2.geojson'
 ```
 
 Have the maps into R
